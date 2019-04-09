@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[LOG] (
+    [username] NVARCHAR (50) NOT NULL,
+    [password] NVARCHAR (50) NOT NULL,
+    [name] NVARCHAR(50) NULL, 
+    [surname] NVARCHAR(50) NOT NULL, 
+    [phone] NCHAR(10) NULL, 
+    [adress] NVARCHAR(50) NULL, 
+    [birthday] DATE NULL, 
+    PRIMARY KEY CLUSTERED ([username] ASC)
+);
+
